@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+			<title>Todos me la pelan</title>
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		<header id="header" class="header background">
+			<div class="contenedor">
+			<figure>
+				<img src="imagenes/helado.png" class="logotipo" alt="Logotipo" width="75px" height="75px">
+				<nav class="menu">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="precios.html">Precios</a>
+						</li>
+					</ul>
+				</nav>
+			</figure>
+			</div>
+		</header>
+		<section class="tabla">
+			<div class="contenedor">
+			<table>
+				<thead>
+					<tr>
+						<th>Tipo</th>
+						<th>Precio</th>
+						<th>Descripción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Vainilla</td>
+						<td>$10</td>
+						<td>Una paleta de vainilla</td>
+					</tr>
+					<tr>
+						<td>Vainilla</td>
+						<td>$10</td>
+						<td>Una paleta de vainilla</td>
+					</tr>
+					<tr>
+						<td>Vainilla</td>
+						<td>$10</td>
+						<td>Una paleta de vainilla</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+		</section>
+		<footer class="footer">
+			<div  class="contenedor">
+				<div class="contactos">
+					<img src="imagenes/xbox.png" alt="logotipo" width="200px">
+					<a href="tel:+523337270664"><strong>Telefono</strong><span>+523337270664</span></a>
+					<a href="mailto:saul.delgado"><strong>E-mail</strong><span>saul@utzmg.com</span></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" required id="nombre" />
+						<label for="correo">Correo</label>
+						<input type="email" required id="correo" />
+						<div class="sexo">
+							<label for="mujer">
+								<input type="radio" id="mujer" name="sexo" value="Mujer" checked>Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="Hombre">Hombre
+							</label>
+						</div>
+						<div class="intereses">
+							<label for="cotizacion">
+								<input type="checkbox" id="cotizacion" name="intereses" value="Cotización" checked>Cotización
+							</label>
+							<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="intereses" value="Reclamos">Reclamos
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="intereses" value="Comentarios">Comentarios
+							</label>
+							<label for="otros">
+								<input type="checkbox" id="otros" name="intereses" value="Otros">Otros
+							</label>
+						</div>
+					</div>
+					<div class="col2">
+						<div>
+							<label for="asunto">Asuntos</label>
+							<textarea name="asunto" id="asunto" cols="30" rows="7"></textarea>
+							<input type="submit" value="Enviar" class="button" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>

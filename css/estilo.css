@@ -1,0 +1,226 @@
+body{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.background{
+	background-image:url('../imagenes/portada3.png');
+	background-size: cover;
+}
+
+.contenedor{
+	width: 800px;
+	margin:auto;
+	position: relative;
+}
+.header{
+	position: relative;
+}
+
+.button{
+	border-radius: 8px;
+	font-size: 18px;
+	background:#f44336;
+	border:none;
+	color: white;
+	padding: 9px 14px;
+	cursor: pointer;
+	text-decoration: none;
+	background:linear-gradient(to left,#b43a70,#fcb045); 
+}
+
+.titulo{
+	color: white;
+	font-size: 80px;
+	margin-top: 70px;
+	margin-bottom: 0;
+}
+
+.titulo span{
+	text-decoration:underline; 
+	color:#f44336;
+}
+
+.titulo-a{
+	color: #f44336;
+	font-size:30px;
+	margin-top: 0;
+}
+
+.titulo-b{
+	font-size: 40px;
+}
+
+.helados{
+	margin-bottom: 60px;
+}
+
+.helados h2{
+	font-size: 35px;
+}
+
+.helados ol{
+	padding: 0;
+}
+
+.portada{
+	height: 500px;
+	padding: 20px;
+}
+
+.portada button{
+	margin-bottom: 70px;
+}
+
+.menu li{
+	margin-left: 30px;
+}
+
+.menu{
+	position: absolute;
+	right: 0;
+	font-size: 24px;
+}
+
+.menu, .logotipo, .menu li { 
+	display: inline-block; 
+}
+
+
+.tipo_helado{
+	margin: 10px 10px 30px 10px;
+	padding: 20px;
+	/*overflow: hidden;*/
+	border: 1px solid;
+	border-radius: 8px;
+
+}
+
+.derecha{
+	float: right;
+	position: relative;
+	top: -110px;
+}
+
+.izquierda{
+	float: left;
+	position: relative;
+	/*top: 80px;*/
+}
+
+.contenedor-helado-a{
+	padding: 20px;
+}
+
+.contenedor-helado-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 50px;
+}
+
+.tipo_helado.b{
+	height: 190px
+}
+
+.footer{
+	padding: 50px 10px;
+	background:#00acc1;
+	color: white;
+}
+
+.contactos{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contactos img{
+	display:block;
+}
+
+.contactos strong{
+	display: block;
+}
+
+.contactos a{
+	color: white;
+	text-decoration: none;
+	margin:10px 10px 10px 0px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 .button{
+	margin-top: 20px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+th{
+	background:#00acc1;
+	color: white;
+	padding: 10px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+table, th, td{
+	border:1px solid #00acc1;
+	border-collapse: collapse;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.tabla{
+	margin: 50px 0;
+}

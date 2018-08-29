@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Todos me la pelan</title>
+		<meta name="description" content="Esta pagina web es de prueba para repasar html, php y css">
+		<link rel="shortcut icon" type="image/x-icon" href="imagenes/simbaLentes.ico" >
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<!--<script type="text/javascript" src="javascript.js"></script>-->
+	</head>
+	<body>
+		<section id="home" class="portada background">
+			<header id="header" class="header contenedor">
+				<figure>
+					<img src="imagenes/helado.png" class="logotipo" alt="Logotipo" width="75px" height="75px">
+					<nav class="menu">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="precios.html">Precios</a>
+							</li>
+						</ul>
+					</nav>
+				</figure>
+			</header>
+			<div class="contenedor">
+				<h1 class="titulo">Ice <span>Cream</span></h1>
+				<h3 class="titulo-a">Prueba los mejores helados que hay en el mundo</h3>
+				<a class="button" href="#helados">Conocer más</a>
+			</div>
+		</section>
+		<section id="helados" class="helados contenedor">
+			<h2>Tipos de helados</h2>
+			<article class="tipo_helado">
+				<img class="derecha" src="imagenes/helado2.png" alt="cono" width="250px">
+				<div class="contenedor-helado-a">
+					<h3 class="titulo-b">Conos de helado</h3>
+					<ol>
+						<li>
+							<a href="">Producto 1</a>
+						</li>
+						<li>
+							<a href="">Producto 2</a>
+						</li>
+						<li>
+							<a href="">Producto 3</a>
+						</li>
+					</ol>
+				</div>
+			</article>
+			<article class="tipo_helado b">
+				<img class="izquierda" src="imagenes/helado3.png" alt="paleta" width="250px">
+				<div class="contenedor-helado-b">
+					<h3 class="titulo-b">Paletas</h3>
+					<ol>
+						<li>
+							<a href="">Producto 1</a>
+						</li>
+						<li>
+							<a href="">Producto 2</a>
+						</li>
+						<li>
+							<a href="">Producto 3</a>
+						</li>
+					</ol>
+				</div>
+			</article>
+		</section>
+		<footer class="footer">
+			<div  class="contenedor">
+				<div class="contactos">
+					<img src="imagenes/xbox.png" alt="logotipo" width="200px">
+					<a href="tel:+523337270664"><strong>Telefono</strong><span>+523337270664</span></a>
+					<a href="mailto:saul.delgado"><strong>E-mail</strong><span>saul@utzmg.com</span></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" required id="nombre" />
+						<label for="correo">Correo</label>
+						<input type="email" required id="correo" />
+						<div class="sexo">
+							<label for="mujer">
+								<input type="radio" id="mujer" name="sexo" value="Mujer" checked>Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="Hombre">Hombre
+							</label>
+						</div>
+						<div class="intereses">
+							<label for="cotizacion">
+								<input type="checkbox" id="cotizacion" name="intereses" value="Cotización" checked>Cotización
+							</label>
+							<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="intereses" value="Reclamos">Reclamos
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="intereses" value="Comentarios">Comentarios
+							</label>
+							<label for="otros">
+								<input type="checkbox" id="otros" name="intereses" value="Otros">Otros
+							</label>
+						</div>
+					</div>
+					<div class="col2">
+						<div>
+							<label for="asunto">Asuntos</label>
+							<textarea name="asunto" id="asunto" cols="30" rows="7"></textarea>
+							<input type="submit" value="Enviar" class="button" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
